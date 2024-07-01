@@ -1,0 +1,35 @@
+{
+  "blogs": [
+    {
+      "id": 1,
+      "title": "Community Events Calendar",
+      "content": "https://calendar.milton.ca/Default/Month",
+      "image": "assets/img/intro/community-calendar.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Planning an Event",
+      "content": "Outdoor facility rentals: We have introduced our new pilot program for outdoor pickleball and basketball court rentals. The community is welcome to use these spaces for free whenever they are available, but now there is an additional opportunity to rent these spaces to encourage sport development.  More information and rental applications forms below.<br>",
+      "image": "assets/img/intro/private-events.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Park and Facility Rentals",
+      "content": [
+        "Special events on private property",
+        "In 2019, Milton Council endorsed an Events Framework to classify events and associated supports.",
+        "",
+        "A public event on private property is considered to:",
+        "",
+        "- Be an event taking place at a location that is not owned and operated by The Town of Milton",
+        "- Have the potential to strain the community’s emergency services response",
+        "- Have a foreseeable impact on the regular flow of traffic",
+        "- Have the potential to adversely affect the Town of Milton community",
+        "- Require the approval of a regulatory agency, e.g. Town, AGCO, Halton Region Health Department, which is outside the scope of typical operations",
+        "",
+        "To get started on planning an event on private property, download our Public Events on Private Property Planning Workbook."
+      ],
+      "image": "assets/img/intro/desktop.jpeg"
+    }
+  ]
+}

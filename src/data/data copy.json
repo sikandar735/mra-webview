@@ -1,0 +1,81 @@
+const blogData = {
+  blogs: [
+    {
+      id: 1,
+      title: "Community Events Calendar",
+      content: {
+        note: "Note text for Community Events Calendar.",
+        highlighted: "Highlighted text for Community Events Calendar.",
+        paragraph: "Paragraph text for Community Events Calendar.",
+        accordion: [
+          {
+            title: "Accordion Item 1",
+            content: "Accordion Content 1"
+          },
+          {
+            title: "Accordion Item 2",
+            content: "Accordion Content 2"
+          }
+        ],
+        contact: {
+          name: "John Doe",
+          email: "john.doe@example.com",
+          phone: "+1234567890"
+        }
+      },
+      image: "assets/img/intro/desktop.jpeg"
+    },
+    {
+      id: 2,
+      title: "Planning an Event",
+      content: {
+        note: "Note text for Planning an Event.",
+        highlighted: "Highlighted text for Planning an Event.",
+        paragraph: "Paragraph text for Planning an Event.",
+        accordion: [
+          {
+            title: "Accordion Item A",
+            content: "Accordion Content A"
+          },
+          {
+            title: "Accordion Item B",
+            content: "Accordion Content B"
+          }
+        ],
+        contact: {
+          name: "Jane Smith",
+          email: "jane.smith@example.com",
+          phone: "+9876543210"
+        }
+      },
+      image: "assets/img/intro/private-events.jpg"
+    },
+    {
+      id: 3,
+      title: "Park and Facility Rentals",
+      content: {
+        note: "Note text for Park and Facility Rentals.",
+        highlighted: "Highlighted text for Park and Facility Rentals.",
+        paragraph: "Paragraph text for Park and Facility Rentals.",
+        accordion: [
+          {
+            title: "Accordion Item X",
+            content: "Accordion Content X"
+          },
+          {
+            title: "Accordion Item Y",
+            content: "Accordion Content Y"
+          }
+        ],
+        contact: {
+          name: "Samuel Brown",
+          email: "samuel.brown@example.com",
+          phone: "+1122334455"
+        }
+      },
+      image: "assets/img/intro/community-calendar.jpg"
+    }
+  ]
+};
+
+export default blogData;
