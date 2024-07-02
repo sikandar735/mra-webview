@@ -1,0 +1,303 @@
+/* new added css by alex, 2 july, 2024 */ 
+.signup-login-btn {
+    width: 115px;
+    height: 40px;
+    line-height: 5px;
+    border-radius: 5%;
+    font-size: 18px;
+    text-align: center;
+    background-color: #EBF3EE;
+    transition: all 0.4s ease-in-out; 
+}
+
+/* new custome css */
+.login-signup-btn{
+  width: 190px !important;
+  height: 40px !important;
+  line-height: 5px !important;
+  border-radius: 5% !important;
+  font-size: 18px !important;
+  text-align: center !important;
+  background-color: #EBF3EE !important;
+  transition: all 0.4s ease-in-out !important;
+}
+.header-logo{
+  max-width: 90px !important;
+}
+
+.left-side-bar{
+    background: #454545;
+  /* justify-content: center; */
+  /* align-items: center; */
+  text-align: center;
+}
+
+.footer-logo{
+  max-width: 160px !important;
+  margin: 0;
+  padding: 0;
+}
+.widget-about .footer-logo {
+  margin-bottom: 0px !important;
+}
+.footer-layout1 .about-logo {
+  margin-bottom: 0px !important; 
+}
+
+.arrow-icon{    
+  font-size: 16px;
+  line-height: 2px;
+}
+
+.transparent-image {
+  display: block;
+  width: 300px; /* Adjust size as needed */
+  height: auto;
+  filter: brightness(48%); /* Darken the image */
+  opacity: 0.9; /* Adjust the opacity as needed */
+}
+
+/* new heading */
+.icon-text {
+  margin-left: 3px; /* Adjust the value as needed */
+}
+
+.header-background-color{
+  background: #414040 !important;
+}
+
+.counter-section {
+  background: #f4f4f4;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.newsletter-background{
+  background-color: #414040 !important;
+}
+
+
+/* advocacy pitation form  */
+/* General Styles */ 
+ .space-bottom {
+  margin-bottom: 40px;
+}
+
+.title-area {
+  margin-bottom: 30px;
+}
+
+.title-area .sub-title img {
+  margin-right: 10px;
+}
+
+.sec-title {
+  font-size: 32px;
+  margin: 20px 0;
+}
+
+.mb-40 {
+  margin-bottom: 40px;
+}
+
+.social-btn a {
+  margin-right: 10px;
+  color: #333;
+  font-size: 20px;
+}
+
+.social-btn a:hover {
+  /* color: #007bff; */
+}
+
+/* Form Styles */
+.contact-form {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+textarea.form-control {
+  height: 150px;
+}
+
+.global-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: #007bff; */
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.global-btn:hover {
+  background-color: #e9e9e9;
+}
+
+.global-btn img {
+  margin-left: 10px;
+}
+
+/* Signature Styles */
+.sigCanvas {
+  border: 1px solid #000;
+  width: 100%;
+  height: 200px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.signature-title {
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.signature-buttons {
+  margin-top: 10px;
+}
+
+.signature-buttons .btn {
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.signature-buttons .btn-secondary {
+  background-color: #ccc;
+  color: #333;
+  border: none;
+}
+
+.signature-buttons .btn-secondary:hover {
+  background-color: #aaa;
+}
+
+.text-justify{
+  text-align: justify;
+}
+
+a, button {
+    text-decoration: none !important; /* Remove underline */ 
+}
+
+a:hover, button:hover {
+    text-decoration: none !important; /* Ensure underline is not added on hover */
+}
+
+.custom-hover-btn { 
+position: relative;
+z-index: 2;
+vertical-align: middle;
+display: inline-block;
+border: none;
+border-radius: 10px;
+text-align: center;
+background-color: #fff;
+color: #000;
+font-family: var(--title-font);
+font-weight: 600;
+font-size: 16px;
+line-height: 30px;
+text-transform: capitalize;
+line-height: 1;
+padding: 20px 30px !important;
+overflow: hidden; 
+}
+
+.custom-hover-btn:hover {
+    background-color: #28a745 !important; /* Apply the success color */
+    color: white !important; /* Ensure the text color is white */
+    border-color: #28a745 !important; /* Ensure the border color is also changed */
+    position: relative;
+    z-index: 2; 
+    display: inline-block;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #fff; 
+    font-family: var(--title-font);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 30px;
+    text-transform: capitalize;
+    line-height: 1;
+    padding: 20px 30px !important;
+    overflow: hidden; 
+}
+
+.global-btn{
+  padding: 20px 30px !important;
+}
+
+
+
+/* for main slider */
+@media (max-width: 768px) {
+    .mobile-screen{
+      margin-bottom: 2% !important;
+      font-size: 20% !important;
+      text-align: center !important;
+    }
+    .carousel-caption {
+        font-size: 70%;
+    }
+    .carousel-caption h3 {
+        font-size: 1.2rem;
+    }
+    .carousel-caption p {
+        font-size: 0.8rem;
+    }
+    .carousel-caption .global-btn {
+        font-size: 0.7rem;
+        padding: 6px 12px;
+    }
+}
+/* for main slider */
+@media (max-width: 500px) {
+    .title-text{
+      font-size: 1.1rem !important;
+      font-weight: bold !important;
+    }
+    .mobile-screen{
+      margin-bottom: -10% !important;
+      font-size: 15% !important;
+      text-align: center !important;
+    }
+    .carousel-caption {
+        font-size: 70%;
+    }
+    .carousel-caption h3 {
+        font-size: 1.2rem;
+    }
+    .carousel-caption p {
+        font-size: 0.8rem;
+    }
+    .carousel-caption .global-btn {
+        font-size: 0.7rem;
+        padding: 6px 12px;
+    }
+} 

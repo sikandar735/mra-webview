@@ -1,0 +1,36 @@
+{
+  "manifest_version": 2,
+  "name": "My Extension",
+  "version": "0.1.0",
+  "description": "A basic description of my extension.",
+  "icons": {
+    "16": "path/to/icon16.png",
+    "48": "path/to/icon48.png",
+    "128": "path/to/icon128.png"
+  },
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": "path/to/icon128.png"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "permissions": [
+    "storage",
+    "activeTab",
+    "http://*/",
+    "https://*/"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["contentScript.bundle.js"],
+      "css": ["styles.css"]
+    }
+  ],
+  "web_accessible_resources": [
+    "contentScript.bundle.js",
+    "styles.css"
+  ]
+}

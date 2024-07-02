@@ -14,21 +14,21 @@ const HeaderOne = () => {
     for (let i = 0; i < offCanvasNavSubMenu.length; i++) {
       offCanvasNavSubMenu[i].insertAdjacentHTML(
         "beforebegin",
-        "<span class='mean-expand-class'>+</span>"
+        "<span  classclassName='mean-expand- '>+</span>"
       );
     }
 
-    let menuExpand = offCanvasNav.querySelectorAll(".mean-expand-class");
+    let menuExpand = offCanvasNav.querySelectorAll(".mean-expand- ");
     let numMenuExpand = menuExpand.length;
 
     function sideMenuExpand() {
-      if (this.parentElement.classList.contains("active") === true) {
-        this.parentElement.classList.remove("active");
+      if (this.parentElement. List.contains("active") === true) {
+        this.parentElement. List.remove("active");
       } else {
         for (let i = 0; i < numMenuExpand; i++) {
-          menuExpand[i].parentElement.classList.remove("active");
+          menuExpand[i].parentElement. List.remove("active");
         }
-        this.parentElement.classList.add("active");
+        this.parentElement. List.add("active");
       }
     }
 
@@ -60,65 +60,65 @@ const HeaderOne = () => {
   return (
     <>
       <div
-        className={`sidemenu-wrapper sidemenu-info ${sidebar ? "show" : ""} `}
+         className={`sidemenu-wrapper sidemenu-info ${sidebar ? "show" : ""} `}
       >
-        <div className="sidemenu-content">
+        <div  className="sidemenu-content">
           <button
-            className="closeButton sideMenuCls"
+             className="closeButton sideMenuCls"
             onClick={() => sidebarControl(false)}
           >
-            <i className="fas fa-times" />
+            <i  className="fas fa-times" />
           </button>
-          <div className="widget  ">
-            <div className="th-widget-about">
-              <div className="about-logo left-side-bar">
+          <div  className="widget  ">
+            <div  className="th-widget-about">
+              <div  className="about-logo left-side-bar">
                 <Link to="/">
                   {/* <img src="assets/img/logo.svg" alt="Laun" /> */}
-                  <img className="header-logo" src="assets/img/logo.png" alt="Milton Residents Association-MRA" />
+                  <img  className="header-logo" src="assets/img/logo.png" alt="Milton Residents Association-MRA" />
                 </Link>
               </div>
-              <p className="about-text">
+              <p  className="about-text">
               We provide specialized services for the Milton Residence Association, keeping you informed with the latest news, events, and important information on compliance and elections. Stay engaged with your community and access everything you need through our comprehensive dashboard.
               </p>
-              <div className="social-links">
+              <div  className="social-links">
                 <Link to="#">
-                  <i className="fab fa-facebook-f" />
+                  <i  className="fab fa-facebook-f" />
                 </Link>
                 <Link to="#">
-                  <i className="fab fa-twitter" />
+                  <i  className="fab fa-twitter" />
                 </Link>
                 <Link to="#">
-                  <i className="fab fa-linkedin-in" />
+                  <i  className="fab fa-linkedin-in" />
                 </Link>
                 <Link to="#">
-                  <i className="fab fa-whatsapp" />
+                  <i  className="fab fa-whatsapp" />
                 </Link>
               </div>
             </div>
           </div>
 
-          <Link to="https://sikandar735.github.io/comming-soon/" className="global-btn style-border">
-                <i class='far fa-hand-point-right arrow-icon'></i> Membership  
+          <Link to="https://sikandar735.github.io/comming-soon/"  className="global-btn style-border">
+                <i  className='far fa-hand-point-right arrow-icon'></i> Membership  
           </Link>
 
-          <div className="side-info mb-30 mt-4">
-            <div className="contact-list mb-20">
+          <div  className="side-info mb-30 mt-4">
+            <div  className="contact-list mb-20">
               <h4>Office Address</h4>
               <p>Milton, Ontario Canada</p>
             </div>
-            <div className="contact-list mb-20">
+            <div  className="contact-list mb-20">
               <h4>Phone Number</h4>
-              <p className="mb-0">+1 (647)-206-2227</p>
+              <p  className="mb-0">+1 (647)-206-2227</p>
               <p>+1 (647)-206-1356</p>
             </div>
-            <div className="contact-list mb-20">
+            <div  className="contact-list mb-20">
               <h4>Email Address</h4>
-              <p className="mb-0">info@miltonresidentsassociation.ca</p>
+              <p  className="mb-0">info@miltonresidentsassociation.ca</p>
               <p>infomar@gmail.com</p>
             </div>
           </div>
 
-          {/* <ul className="side-instagram list-wrap">
+          {/* <ul  className="side-instagram list-wrap">
             <li>
               <Link to="#">
                 <img src="assets/img/gallery/1.jpg" alt="Milton Residents Association-MRA" />
@@ -143,36 +143,36 @@ const HeaderOne = () => {
 
         </div>
       </div>
-      {/* <div className={`popup-search-box ${search === true ? "show" : ""} `}>
-        <button className="searchClose" onClick={() => searchControl(false)}>
-          <i className="fas fa-times" />
+      {/* <div  className={`popup-search-box ${search === true ? "show" : ""} `}>
+        <button  className="searchClose" onClick={() => searchControl(false)}>
+          <i  className="fas fa-times" />
         </button>
         <form>
           <input type="text" placeholder="What are you looking for?" />
           <button type="submit">
-            <i className="fas fa-search" />
+            <i  className="fas fa-search" />
           </button>
         </form>
       </div> */}
       {/*==============================
     Mobile Menu
     ============================== */}
-      <div className={`mobile-menu-wrapper ${active ? "body-visible" : ""}`}>
-        <div className="mobile-menu-area">
-          <div className="mobile-logo">
+      <div  className={`mobile-menu-wrapper ${active ? "body-visible" : ""}`}>
+        <div  className="mobile-menu-area">
+          <div  className="mobile-logo">
             <Link to="/">
               {/* <img src="assets/img/logo.svg" alt="Milton Residents Association-MRA" /> */}
-              <img className="header-logo" src="assets/img/logo.png" alt="Milton Residents Association-MRA" />
+              <img  className="header-logo" src="assets/img/logo.png" alt="Milton Residents Association-MRA" />
             </Link>
-            <button className="menu-toggle" onClick={mobileMenu}>
-              <i className="fa fa-times" />
+            <button  className="menu-toggle" onClick={mobileMenu}>
+              <i  className="fa fa-times" />
             </button>
           </div>
-          <div className="mobile-menu">
+          <div  className="mobile-menu">
             <ul id="offcanvas-navigation">
-              <li className="menu-item-has-children submenu-item-has-children">
+              <li  className="menu-item-has-children submenu-item-has-children">
                 <Link to="/">Home</Link>
-                {/* <ul className="sub-menu submenu-class">
+                {/* <ul  className="sub-menu submenu- ">
                   <li>
                     <Link to="/">Home 01</Link>
                   </li>
@@ -194,9 +194,9 @@ const HeaderOne = () => {
               <li>
                 <Link to="/about">About</Link>
               </li>
-              {/* <li className="menu-item-has-children">
+              {/* <li  className="menu-item-has-children">
                 <Link to="#">Pages</Link>
-                <ul className="sub-menu">
+                <ul  className="sub-menu">
                   <li>
                     <Link to="/pricing">Pricing Page</Link>
                   </li>
@@ -209,9 +209,9 @@ const HeaderOne = () => {
                 </ul>
               </li> */}
 
-              <li className="menu-item-has-children">
+              <li  className="menu-item-has-children">
                 <Link to="#">Services</Link>
-                <ul className="sub-menu">
+                <ul  className="sub-menu">
                     <li>
                       {/* <Link to="/service">Service</Link> */}
                     </li>
@@ -227,9 +227,9 @@ const HeaderOne = () => {
                 </ul>
               </li>
               {/* 
-              <li className="menu-item-has-children">
+              <li  className="menu-item-has-children">
                 <Link to="#">Project</Link>
-                <ul className="sub-menu">
+                <ul  className="sub-menu">
                   <li>
                     <Link to="/project">Projects</Link>
                   </li>
@@ -239,9 +239,9 @@ const HeaderOne = () => {
                 </ul>
               </li> */}
 
-              {/* <li className="menu-item-has-children">
+              {/* <li  className="menu-item-has-children">
                 <Link to="#">Blog</Link>
-                <ul className="sub-menu">
+                <ul  className="sub-menu">
                   <li>
                     <Link to="/blog">Blog</Link>
                   </li>
@@ -253,8 +253,8 @@ const HeaderOne = () => {
               <li>
                 <Link to="/contact">Contact</Link>
               </li>
-              <Link to="https://sikandar735.github.io/comming-soon/" className="global-btn style-border">
-                <i class='far fa-hand-point-right arrow-icon'></i> Membership  
+              <Link to="https://sikandar735.github.io/comming-soon/"  className="global-btn style-border">
+                <i  className='far fa-hand-point-right arrow-icon'></i> Membership  
               </Link>
             </ul>
           </div>
@@ -263,25 +263,25 @@ const HeaderOne = () => {
 
       {/* Header Area */}
 
-      <header className="nav-header header-layout1">
-        <div className={`sticky-wrapper header-background-color ${scroll && "sticky"}`}>
+      <header  className="nav-header header-layout1">
+        <div  className={`sticky-wrapper header-background-color ${scroll && "sticky"}`}>
           {/* Main Menu Area */}
-          <div className="container">
-            <div className="row align-items-center justify-content-between">
-              <div className="col-auto">
-                <div className="header-logo">
+          <div  className="container">
+            <div  className="row align-items-center justify-content-between">
+              <div  className="col-auto">
+                <div  className="header-logo">
                   <Link to="/">
                     {/* <img src="assets/img/logo.svg" alt="logo" /> */}
-                    <img className="header-logo" src="assets/img/logo.png" alt="Milton Residents Association-MRA" />
+                    <img  className="header-logo" src="assets/img/logo.png" alt="Milton Residents Association-MRA" />
                   </Link>
                 </div>
               </div>
-              <div className="col-auto ms-xl-auto">
-                <nav className="main-menu d-none d-lg-inline-block">
+              <div  className="col-auto ms-xl-auto">
+                <nav  className="main-menu d-none d-lg-inline-block">
                   <ul>
                     <li>
                       <Link to="/">Home</Link>
-                      {/* <ul className="sub-menu">
+                      {/* <ul  className="sub-menu">
                         <li>
                           <Link to="/">Home 01</Link>
                         </li>
@@ -303,9 +303,9 @@ const HeaderOne = () => {
                     <li>
                       <Link to="/about">About Us</Link>
                     </li>
-                    <li className="menu-item-has-children">
+                    <li  className="menu-item-has-children">
                       <Link to="#">Services</Link>
-                      <ul className="sub-menu">
+                      <ul  className="sub-menu">
                         <li>
                           {/* <Link to="/service">Service</Link> */}
                         </li>
@@ -320,9 +320,9 @@ const HeaderOne = () => {
                       </li>
                       </ul>
                     </li>
-                    {/* <li className="menu-item-has-children">
+                    {/* <li  className="menu-item-has-children">
                         <Link to="#">Projects</Link>
-                        <ul className="sub-menu">
+                        <ul  className="sub-menu">
                           <li>
                             <Link to="/project">Projects</Link>
                           </li>
@@ -331,9 +331,9 @@ const HeaderOne = () => {
                           </li>
                         </ul>
                       </li> */}
-                    {/* <li className="menu-item-has-children">
+                    {/* <li  className="menu-item-has-children">
                       <Link to="#">Blog</Link>
-                      <ul className="sub-menu">
+                      <ul  className="sub-menu">
                         <li>
                           <Link to="/blog">Blog</Link>
                         </li>
@@ -342,9 +342,9 @@ const HeaderOne = () => {
                         </li>
                       </ul>
                     </li> */}
-                    {/* <li className="menu-item-has-children">
+                    {/* <li  className="menu-item-has-children">
                       <Link to="#">Pages</Link>
-                      <ul className="sub-menu">
+                      <ul  className="sub-menu">
                         <li>
                           <Link to="/pricing">Pricing Page</Link>
                         </li>
@@ -364,51 +364,51 @@ const HeaderOne = () => {
                     </li>
                   </ul>
                 </nav>
-                <div className="navbar-right d-inline-flex d-lg-none">
+                <div  className="navbar-right d-inline-flex d-lg-none">
                   <button
                     type="button"
-                    className="menu-toggle icon-btn"
+                     className="menu-toggle icon-btn"
                     onClick={mobileMenu}
                   >
-                    <i className="fas fa-bars" />
+                    <i  className="fas fa-bars" />
                   </button>
                 </div>
               </div>
-              <div className="col-auto ms-xxl-4 d-xl-block d-none">
-                <div className="header-wrapper">
-                  <div className="header-button">
+              <div  className="col-auto ms-xxl-4 d-xl-block d-none">
+                <div  className="header-wrapper">
+                  <div  className="header-button">
                     {/* <button
                       type="button"
                       onClick={() => searchControl(true)}
-                      className="simple-icon searchBoxToggler"
+                       className="simple-icon searchBoxToggler"
                     >
-                      <i className="fas fa-search" />
+                      <i  className="fas fa-search" />
                     </button> */}
                     <button
                       onClick={() => sidebarControl(true)}
 
-                      className="simple-icon sideMenuToggler d-none d-lg-block"
+                       className="simple-icon sideMenuToggler d-none d-lg-block"
                     >
                       <img src="assets/img/icon/bars.svg" alt="Milton Residents Association-MRA" />
                     </button>
                   </div>
-                  <div className="social-links">
+                  <div  className="social-links">
                     {/* <Link to="#">
-                      <i className="fab fa-instagram" />
+                      <i  className="fab fa-instagram" />
                     </Link>
                     <Link to="#">
-                      <i className="fab fa-linkedin" />
+                      <i  className="fab fa-linkedin" />
                     </Link>
                     <Link to="#">
-                      <i className="fab fa-twitter" />
+                      <i  className="fab fa-twitter" />
                     </Link>
                     <Link to="#">
-                      <i className="fab fa-facebook-f" />
+                      <i  className="fab fa-facebook-f" />
                     </Link> */}
-                    <Link to="https://sikandar735.github.io/comming-soon/" className="global-btn style-border login-signup-btn signup-login-btn">
-                     <i class='far fa-hand-point-right arrow-icon'></i> Membership  
+                    <Link to="https://sikandar735.github.io/comming-soon/"  className="global-btn style-border login-signup-btn signup-login-btn">
+                     <i  className='far fa-hand-point-right arrow-icon'></i> Membership  
                     </Link>
-                    {/* <Link to="https://sikandar735.github.io/comming-soon/" className="global-btn style-border login-signup-btn signup-login-btn">
+                    {/* <Link to="https://sikandar735.github.io/comming-soon/"  className="global-btn style-border login-signup-btn signup-login-btn">
                     Login
                     </Link> */}
                   </div>
