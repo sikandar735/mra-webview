@@ -82,7 +82,7 @@ const PollingComponent = () => {
                         <Button className='custom-hover-btn border border btn btn-danger custom-hover-btn' onClick={handleVote}>
                             Submit Vote
                         </Button>
-
+ 
                         {renderPollResults()}
                     </div>
                 )}
@@ -115,7 +115,7 @@ const PollingComponent = () => {
                     <div className="mb-3">
                         <textarea className="form-control" rows="3" placeholder="Your Comment"></textarea>
                     </div>
-                    <Button className="global-btn border border btn btn-light" type="submit">
+                    <Button className="secondary-common-polling-button" type="submit">
                         Submit Comment
                     </Button>
                 </form>

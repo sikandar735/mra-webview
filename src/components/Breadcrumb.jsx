@@ -1,5 +1,6 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom' 
+import breadcrumbImage from '../assets/img/normal/team-1.avif'
 
 const Breadcrumb = ({ title }) => {
     return (
@@ -20,7 +21,9 @@ const Breadcrumb = ({ title }) => {
                     </div>
                     <div className="col-lg-6 d-lg-block d-none">
                         <div className="breadcumb-thumb">
-                            <img src="assets/img/normal/breadcrumb-thumb.png" alt="img" />
+                            <div className='breadcrumb-image'>
+                                <img src={breadcrumbImage} alt="img" />
+                            </div>
                         </div>
                     </div>
                 </div>

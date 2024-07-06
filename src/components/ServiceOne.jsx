@@ -22,27 +22,27 @@ const ServiceOne = () => {
       <div className="container">
         <div className="row gx-30 gy-30 justify-content-center">
 
-          <div className="col-md-6">
+          <div className="col-md-6 mt-2 mb-3">
             <div className="service-card">
               <div className="service-card_img">
-                <img src="assets/img/service/service-1-1.jpg" alt="img" />
+                <img src="assets/img/service/service-1.png" alt="img" />
               </div>
               <div className="service-card_content">
                 <h4 className="service-card_title">
                   <Link to="/service-details">Dashboard Overview</Link>
                 </h4>
                 <p className="service-card_text">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda laboriosam eligendi quis sit repellat nesciunt asperiores facere voluptas est saepe aliquam minus delectus, nemo quia soluta iste pariatur incidunt maxime.                </p>
+                  Get started with Milton Resident Association by signing up today! Once registered, log in to access detailed information and updates effortlessly. Explore your community with ease and stay informed. </p>
                 <Link to="/service-details" className="link-btn">
                   Read More <i className="fas fa-arrow-right" />
                 </Link>
               </div>
             </div>
           </div>
-          <div className="col-md-6">
+          <div className="col-md-6 mt-2 mb-3">
             <div className="service-card">
               <div className="service-card_img">
-                <img src="assets/img/service/service-1-2.jpg" alt="img" />
+                <img src="assets/img/service/service-2.jpeg" alt="img" />
               </div>
               <div className="service-card_content">
                 <h4 className="service-card_title">
@@ -57,10 +57,10 @@ const ServiceOne = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-6">
+          <div className="col-md-6 mt-2 mb-3">
             <div className="service-card">
               <div className="service-card_img">
-                <img src="assets/img/service/service-1-3.jpg" alt="img" />
+                <img src="assets/img/service/service-3.jpg" alt="img" />
               </div>
               <div className="service-card_content">
                 <h4 className="service-card_title">
@@ -75,10 +75,10 @@ const ServiceOne = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-6">
+          <div className="col-md-6 mt-2 mb-3">
             <div className="service-card">
               <div className="service-card_img">
-                <img src="assets/img/service/service-1-4.jpg" alt="img" />
+                <img src="assets/img/service/service-4.jpg" alt="img" />
               </div>
               <div className="service-card_content">
                 <h4 className="service-card_title">
@@ -94,7 +94,7 @@ const ServiceOne = () => {
             </div>
           </div>
 
-          {/* <div className="col-md-6">
+          {/* <div className="col-md-6 mt-2 mb-3">
             <div className="service-card">
               <div className="service-card_img">
                 <img src="assets/img/service/service-1-4.jpg" alt="img" />
@@ -113,7 +113,7 @@ const ServiceOne = () => {
             </div>
           </div> */}
 
-          {/* <div className="col-md-6">
+          {/* <div className="col-md-6 mt-2 mb-3">
             <div className="service-card">
               <div className="service-card_img">
                 <img src="assets/img/service/service-1-4.jpg" alt="img" />
@@ -132,7 +132,7 @@ const ServiceOne = () => {
             </div>
           </div> */}
 
-          {/* <div className="col-md-6">
+          {/* <div className="col-md-6 mt-2 mb-3">
             <div className="service-card">
               <div className="service-card_img">
                 <img src="assets/img/service/service-1-4.jpg" alt="img" />
@@ -151,7 +151,7 @@ const ServiceOne = () => {
             </div>
           </div> */}
 
-          {/* <div className="col-md-6">
+          {/* <div className="col-md-6 mt-2 mb-3">
             <div className="service-card">
               <div className="service-card_img">
                 <img src="assets/img/service/service-1-4.jpg" alt="img" />

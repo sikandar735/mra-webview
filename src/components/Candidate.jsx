@@ -69,7 +69,7 @@ const Candidate = () => {
         <div className="row align-items-center">
           <div className="col-xl-6">
             <div className="wcu-thumb">
-              <div className="wcu-thumb-1">
+              <div className="wcu-thumb-1 text-center">
                 {/* <img src="assets/img/normal/wcu-thumb-1-1.png" alt="img" /> */}
                 <img src="assets/img/normal/representative-1.jpg" alt="img" />
               </div>
@@ -118,7 +118,7 @@ const Candidate = () => {
         <div className="row align-items-center">
           <div className="col-xl-6">
             <div className="wcu-thumb">
-              <div className="wcu-thumb-1">
+              <div className="wcu-thumb-1 text-center">
                 {/* <img src="assets/img/normal/wcu-thumb-1-1.png" alt="img" /> */}
                 <img src="assets/img/normal/representative-3.jpg" alt="img" />
               </div>

@@ -22,15 +22,14 @@ const HeroOne = () => {
               Welcome to the Milton Residents Association website, your hub for community engagement and support. Connect with local government, stay informed about events, and participate in our activities. Thank you for your support.
               </p>
               <div className="btn-group">
-                <Link to="/about" className="global-btn style-border">
-                  Learn More <img src="assets/img/icon/right-icon.svg" alt="Milton Residents Association-MRA" />
+
+                <Link to="/about" className="secondary-common-button">
+                  Learn More 
                 </Link>
-                <Link to="https://sikandar735.github.io/comming-soon/" className="global-btn style-border">
+                <a to="https://sikandar735.github.io/comming-soon/" className="secondary-common-button">
                   Join Now
-                </Link>
-                {/* <Link to="/service" className="global-btn style-border">
-                  Our Services
-                </Link> */}
+                </a> 
+
               </div>
             </div>
           </div>

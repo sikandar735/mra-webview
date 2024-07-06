@@ -24,9 +24,9 @@ const ServiceInnerDetails = () => {
                                 <h6 className="content">February-10-2024 </h6>
                             </li>
                         </ul> */}
-                        <h3 className="page-title mt-40 mb-20">Maximizing Profita Throughhhhjhjhj</h3>
+                        <h3 className="page-title mt-40 mb-20">Dashboard Overview</h3>
                         <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias mollitia distinctio delectus doloremque quasi a error asperiores atque aspernatur dolor sint harum numquam beatae quam sequi dolore, fuga labore accusantium.
+                        Get started with Milton Resident Association by signing up today! Once registered, log in to access detailed information and updates effortlessly. Explore your community with ease and stay informed.
                         </p>
                         {/* <div className="checklist style6 mt-40 mb-60">
                             <ul>

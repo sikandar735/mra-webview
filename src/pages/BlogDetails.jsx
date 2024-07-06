@@ -6,6 +6,7 @@ import Breadcrumb from "../components/Breadcrumb";
 import FooterOne from "../components/FooterOne";
 import Newsletter from "../components/Newsletter";
 import BlogDetailsInner from "../components/BlogDetailsInner";
+import MarqueeOne from "../components/MarqueeOne";
 
 
 
@@ -23,6 +24,9 @@ const BlogDetails = () => {
 
       {/* Helmet */}
       <HelmetReact title={"Blog Details"} />
+
+      {/* MarqueeOne */}
+      <MarqueeOne />
 
       {/* HeaderFive */}
       <HeaderOne />

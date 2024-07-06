@@ -47,7 +47,14 @@ const AboutOne = () => {
                     <h3 className="box-title">A Place of Possibility: Milton, Canada</h3>
                     <p className="achive-about_text">
                     Milton is not just a place to live; it's a community brimming with opportunities and vibrant spaces. Our website serves as a vital hub for the residents of Milton, Ontario, designed to keep you connected, informed, and actively engaged in shaping our town.
-                    </p>
+                    {!isAboutPage && (
+                    <span>....
+                    <Link  to="/about" className="ml-2">
+                      Read More <i className="fas fa-arrow-right ms-2" />
+                    </Link >
+                    </span> )}
+                    </p> 
+
                   </div>
                 </div>
               </div>
@@ -71,9 +78,9 @@ const AboutOne = () => {
 
               {!isAboutPage && (
               <div className="btn-wrap mt-20">
-                <Link to="/about" className="global-btn mt-xl-0 mt-20">
+                {/* <Link to="/about" className="global-btn border mt-xl-0 mt-20">
                   Read More <i className="fas fa-arrow-right ms-2" />
-                </Link>
+                </Link> */}
               </div>
               )}
             </div>

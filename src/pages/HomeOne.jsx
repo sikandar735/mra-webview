@@ -17,6 +17,7 @@ import MainSlider from "../components/MainSlider";
 import FaqOne from "../components/FaqOne";
 import BlogOne from "../components/BlogOne";
 import FooterOne from "../components/FooterOne";
+import Newsletter from "../components/Newsletter";
 import PollAndComments from "../components/PollAndComments";
 
 const HomeOne = () => {
@@ -46,9 +47,6 @@ const HomeOne = () => {
       {/* HeroOne */}
       <HeroOne />
 
-      {/* ServiceOne */}
-      {/* <ServiceOne /> */}
-
       {/* CTA_One */}
       {/* <CTAOne /> */}
 
@@ -71,15 +69,21 @@ const HomeOne = () => {
       {/* <TeamOne /> */}
 
       {/* CounterOne */}
-      <CounterOne />
+      {/* <CounterOne /> */}
       
       {/* FaqOne */}
       <div className="faq-area-1 bg-smoke space">
-        {/* <FaqOne /> */}
+        <FaqOne />
       </div>
+
+      {/* ServiceOne */}
+      <ServiceOne />
 
       {/* BlogOne */}
       <BlogOne />
+
+      {/* Newsletter */}
+      <Newsletter />
 
       {/* FooterOne */}
       <FooterOne />

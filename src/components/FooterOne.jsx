@@ -1,11 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import footerBg from "../assets/img/bg/footer-bg1-1.png";
+import footerLogo from "../assets/img/logo.png";
 
 const FooterOne = () => {
   return (
     <footer
       className="footer-wrapper footer-layout1"
-      style={{ backgroundImage: "url(assets/img/bg/footer-bg1-1.png)" }}
+      style={{ backgroundImage: `url(${footerBg})` }}
     >
       <div className="container">
         <div className="widget-area">
@@ -14,25 +16,24 @@ const FooterOne = () => {
               <div className="widget footer-widget widget-about">
                 <div className="about-logo">
                   <Link to="/">
-                    {/* <img src="assets/img/logo-white.svg" alt="Milton Residents Association-MRA" /> */}
-                    <img className="footer-logo text-white" src="assets/img/logo.png" alt="Milton Residents Association-MRA" />
+                    <img className="footer-logo text-white" src={footerLogo} alt="Milton Residents Association-MRA" />
                   </Link>
                 </div>
                 <p className="footer-text mb-30">
-                Welcome to Milton Residents Association-MRA your serene escape in the heart of Canada. Nestled in the heart of Canada, our modern community offers comfort and convenience amidst breathtaking natural surroundings. Experience the best of Milton living with us.
+                  Welcome to Milton Residents Association-MRA your serene escape in the heart of Canada. Nestled in the heart of Canada, our modern community offers comfort and convenience amidst breathtaking natural surroundings. Experience the best of Milton living with us.
                 </p>
                 <div className="social-btn style3">
                   <Link to="#" tabIndex={-1}>
-                    <i className="fab fa-instagram" />
+                    <i className="fa fa-instagram" />
                   </Link>
                   <Link to="#" tabIndex={-1}>
-                    <i className="fab fa-linkedin-in" />
+                    <i className="fa fa-linkedin" />
                   </Link>
                   <Link to="#" tabIndex={-1}>
-                    <i className="fab fa-twitter" />
+                    <i className="fa fa-twitter" />
                   </Link>
                   <Link to="#" tabIndex={-1}>
-                    <i className="fab fa-facebook-f" />
+                    <i className="fa fa-facebook-f" />
                   </Link>
                 </div>
               </div>
@@ -63,7 +64,7 @@ const FooterOne = () => {
                 <h3 className="widget_title">Contact</h3>
                 <div className="widget-contact2">
                   <div className="widget-contact-grid">
-                    <i className="fas fa-phone-alt" />
+                    <i className="fa fa-phone" />
                     <div className="contact-grid-details">
                       <h6>
                         <Link to="#">+1 (647)-206-2227</Link>
@@ -71,22 +72,20 @@ const FooterOne = () => {
                     </div>
                   </div>
                   <div className="widget-contact-grid">
-                    <i className="fas fa-envelope" />
+                    <i className="fa fa-envelope" />
                     <div className="contact-grid-details">
                       <h6>
                         <Link to="#">
-                        info@miltonresidentsassociation.ca
+                          info@miltonresidentsassociation.ca
                         </Link>
-                        <p />
                       </h6>
                     </div>
                   </div>
                   <div className="widget-contact-grid">
-                    <i className="fas fa-map-marker-alt" />
+                    <i className="fa fa-map-marker" />
                     <div className="contact-grid-details">
                       <h6>
                         Milton, Ontario Canada
-                        <p />
                       </h6>
                     </div>
                   </div>

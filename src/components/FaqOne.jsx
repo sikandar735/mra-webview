@@ -26,7 +26,7 @@ const FaqOne = () => {
                     aria-expanded="true"
                     aria-controls="collapse-1"
                   >
-                    What services do you offer?
+                    What is the area covered?
                   </button>
                 </div>
                 <div
@@ -37,10 +37,7 @@ const FaqOne = () => {
                 >
                   <div className="accordion-body">
                     <p className="faq-text">
-                      We offer a wide range of digital services, including
-                      website design and development, e-commerce solutions,
-                      search engine optimization, social media management,
-                      pay-per-click advertising, brand identity
+                      Our services cover an extensive area of 367 kilometers, ensuring that we reach a wide range of clients and deliver exceptional service across a vast region.
                     </p>
                   </div>
                 </div>
@@ -55,7 +52,7 @@ const FaqOne = () => {
                     aria-expanded="false"
                     aria-controls="collapse-2"
                   >
-                    How long does it take for you to complete a project?
+                    What is the population size you serve?
                   </button>
                 </div>
                 <div
@@ -66,10 +63,7 @@ const FaqOne = () => {
                 >
                   <div className="accordion-body">
                     <p className="faq-text">
-                      It is a long established fact that a reader will be
-                      distracted by the readable content of a page when looking
-                      at its layout. Many desktop publis packages and web page
-                      editors now use Lorem Ipsum
+                      We serve a population size of 158,249 individuals, providing our services to a diverse and dynamic community that benefits from our innovative solutions.
                     </p>
                   </div>
                 </div>
@@ -84,7 +78,7 @@ const FaqOne = () => {
                     aria-expanded="false"
                     aria-controls="collapse-3"
                   >
-                    How much does it cost to work with your agency?
+                    What percentage of your workforce is involved in education?
                   </button>
                 </div>
                 <div
@@ -95,10 +89,33 @@ const FaqOne = () => {
                 >
                   <div className="accordion-body">
                     <p className="faq-text">
-                      It is a long established fact that a reader will be
-                      distracted by the readable content of a page when looking
-                      at its layout. Many desktop publis packages and web page
-                      editors now use Lorem Ipsum
+                      A significant 65% of our workforce is dedicated to education, highlighting our commitment to fostering knowledge, skill development, and continuous learning within our community.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="accordion-card ">
+                <div className="accordion-header" id="collapse-item-4">
+                  <button
+                    className="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapse-4"
+                    aria-expanded="false"
+                    aria-controls="collapse-4"
+                  >
+                    How many client reviews do you have?
+                  </button>
+                </div>
+                <div
+                  id="collapse-4"
+                  className="accordion-collapse collapse "
+                  aria-labelledby="collapse-item-4"
+                  data-bs-parent="#faqAccordion"
+                >
+                  <div className="accordion-body">
+                    <p className="faq-text">
+                      We have received over 900 client reviews, reflecting our dedication to delivering high-quality services and maintaining strong relationships with our clients.
                     </p>
                   </div>
                 </div>
@@ -108,9 +125,7 @@ const FaqOne = () => {
           <div className="col-xl-6">
             <div className="ms-xl-5">
               <p className="counter-text">
-                Dictum ultrices porttitor amet nec sollicitudin mi molestie
-                adipiscing netus. Lorem at ac ut morbi ullamcorper molestie
-                lacus loren ipsum dummy text provide happy
+                We are proud to cover an area of 367 kilometers, serving a population of 158,249 people. With 65% of our workforce dedicated to education and over 900 client reviews, our commitment to excellence is evident in everything we do.
               </p>
               <div className="counter-box_wrapper">
                 <div className="counter-box">
@@ -126,14 +141,14 @@ const FaqOne = () => {
                         {({ isVisible }) =>
                           isVisible && (
                             <span className="counter-number">
-                              <CountUp delay={0} start={0} end={200} />
-                              k+
+                              <CountUp delay={0} start={0} end={367} />
+                              km
                             </span>
                           )
                         }
                       </TrackVisibility>
                     </h2>
-                    <p className="counter-box_text">Team member</p>
+                    <p className="counter-box_text">Area Covered</p>
                   </div>
                 </div>
                 <div className="counter-box">
@@ -149,14 +164,13 @@ const FaqOne = () => {
                         {({ isVisible }) =>
                           isVisible && (
                             <span className="counter-number">
-                              <CountUp delay={0} start={0} end={10} />
-                              k+
+                              <CountUp delay={0} start={0} end={158249} />
                             </span>
                           )
                         }
                       </TrackVisibility>
                     </h2>
-                    <p className="counter-box_text">Complete project</p>
+                    <p className="counter-box_text">Population Size</p>
                   </div>
                 </div>
                 <div className="counter-box">
@@ -172,14 +186,14 @@ const FaqOne = () => {
                         {({ isVisible }) =>
                           isVisible && (
                             <span className="counter-number">
-                              <CountUp delay={0} start={0} end={20} />
-                              k+
+                              <CountUp delay={0} start={0} end={65} />
+                              %
                             </span>
                           )
                         }
                       </TrackVisibility>
                     </h2>
-                    <p className="counter-box_text">Winning award</p>
+                    <p className="counter-box_text">Education Workforce</p>
                   </div>
                 </div>
                 <div className="counter-box">
@@ -196,7 +210,7 @@ const FaqOne = () => {
                           isVisible && (
                             <span className="counter-number">
                               <CountUp delay={0} start={0} end={900} />
-                              k+
+                              +
                             </span>
                           )
                         }

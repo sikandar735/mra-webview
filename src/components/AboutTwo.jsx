@@ -26,19 +26,19 @@ const AboutTwo = () => {
             <div className="checklist">
               <ul>
                 <li>
-                  <i className="fas fa-check-circle" />
+                  <i className="fa fa-check-circle" />
                   Improving all types of opportunities
                 </li>
                 <li>
-                  <i className="fas fa-check-circle" />
+                  <i className="fa fa-check-circle" />
                   Quick solutions for daily problems
                 </li>
                 <li>
-                  <i className="fas fa-check-circle" />
+                  <i className="fa fa-check-circle" />
                   Community that grows larger
                 </li>
                 <li>
-                  <i className="fas fa-check-circle" />
+                  <i className="fa fa-check-circle" />
                   Best time and place to start business{" "}
                 </li>
               </ul>

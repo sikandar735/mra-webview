@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import HeaderLogo from "../assets/img/logo.png";
+import HeaderSvg from "../assets/img/icon/bars.svg"; 
 
 const HeaderOne = () => {
   const [active, setActive] = useState(false);
@@ -67,14 +69,14 @@ const HeaderOne = () => {
              className="closeButton sideMenuCls"
             onClick={() => sidebarControl(false)}
           >
-            <i  className="fas fa-times" />
+            <i  className="fa fa-times-circle" />
           </button>
           <div  className="widget  ">
             <div  className="th-widget-about">
               <div  className="about-logo left-side-bar">
                 <Link to="/">
                   {/* <img src="assets/img/logo.svg" alt="Laun" /> */}
-                  <img  className="header-logo" src="assets/img/logo.png" alt="Milton Residents Association-MRA" />
+                  <img  className="header-logo" src={HeaderLogo} alt="Milton Residents Association-MRA" />
                 </Link>
               </div>
               <p  className="about-text">
@@ -82,24 +84,24 @@ const HeaderOne = () => {
               </p>
               <div  className="social-links">
                 <Link to="#">
-                  <i  className="fab fa-facebook-f" />
+                  <i  className="fa fa-facebook-f" />
                 </Link>
                 <Link to="#">
-                  <i  className="fab fa-twitter" />
+                  <i  className="fa fa-twitter" />
                 </Link>
                 <Link to="#">
-                  <i  className="fab fa-linkedin-in" />
+                  <i  className="fa fa-linkedin" />
                 </Link>
                 <Link to="#">
-                  <i  className="fab fa-whatsapp" />
+                  <i  className="fa fa-whatsapp" />
                 </Link>
               </div>
             </div>
           </div>
 
-          <Link to="https://sikandar735.github.io/comming-soon/"  className="global-btn style-border">
-                <i  className='far fa-hand-point-right arrow-icon'></i> Membership  
-          </Link>
+          <a href="https://sikandar735.github.io/comming-soon/" class="btn btn-outline-secondary button-secondary">
+            <i  className='far fa-hand-point-right arrow-icon'></i> Membership
+          </a>
 
           <div  className="side-info mb-30 mt-4">
             <div  className="contact-list mb-20">
@@ -161,8 +163,8 @@ const HeaderOne = () => {
         <div  className="mobile-menu-area">
           <div  className="mobile-logo">
             <Link to="/">
-              {/* <img src="assets/img/logo.svg" alt="Milton Residents Association-MRA" /> */}
-              <img  className="header-logo" src="assets/img/logo.png" alt="Milton Residents Association-MRA" />
+              {/* <img src="assets/img/logo.svg" alt="Milton Residents Association-MRA" /> */} 
+              <img  className="header-logo" src={HeaderLogo} alt="Milton Residents Association-MRA" />
             </Link>
             <button  className="menu-toggle" onClick={mobileMenu}>
               <i  className="fa fa-times" />
@@ -253,9 +255,9 @@ const HeaderOne = () => {
               <li>
                 <Link to="/contact">Contact</Link>
               </li>
-              <Link to="https://sikandar735.github.io/comming-soon/"  className="global-btn style-border">
-                <i  className='far fa-hand-point-right arrow-icon'></i> Membership  
-              </Link>
+              <a href="https://sikandar735.github.io/comming-soon/" class="btn btn-outline-secondary button-secondary">
+                    <i  className='far fa-hand-point-right arrow-icon'></i> Membership
+              </a>
             </ul>
           </div>
         </div>
@@ -271,8 +273,8 @@ const HeaderOne = () => {
               <div  className="col-auto">
                 <div  className="header-logo">
                   <Link to="/">
-                    {/* <img src="assets/img/logo.svg" alt="logo" /> */}
-                    <img  className="header-logo" src="assets/img/logo.png" alt="Milton Residents Association-MRA" />
+                    {/* <img src="assets/img/logo.svg" alt="logo" /> */} 
+                    <img  className="header-logo" src={HeaderLogo} alt="Milton Residents Association-MRA" />
                   </Link>
                 </div>
               </div>
@@ -389,28 +391,13 @@ const HeaderOne = () => {
 
                        className="simple-icon sideMenuToggler d-none d-lg-block"
                     >
-                      <img src="assets/img/icon/bars.svg" alt="Milton Residents Association-MRA" />
+                      <img  className="header-logo" src={HeaderSvg} alt="Milton Residents Association-MRA" />
                     </button>
                   </div>
                   <div  className="social-links">
-                    {/* <Link to="#">
-                      <i  className="fab fa-instagram" />
-                    </Link>
-                    <Link to="#">
-                      <i  className="fab fa-linkedin" />
-                    </Link>
-                    <Link to="#">
-                      <i  className="fab fa-twitter" />
-                    </Link>
-                    <Link to="#">
-                      <i  className="fab fa-facebook-f" />
-                    </Link> */}
-                    <Link to="https://sikandar735.github.io/comming-soon/"  className="global-btn style-border login-signup-btn signup-login-btn">
-                     <i  className='far fa-hand-point-right arrow-icon'></i> Membership  
-                    </Link>
-                    {/* <Link to="https://sikandar735.github.io/comming-soon/"  className="global-btn style-border login-signup-btn signup-login-btn">
-                    Login
-                    </Link> */}
+                    <a href="https://sikandar735.github.io/comming-soon/" class="btn btn-outline-secondary button-secondary">
+                      <i  className='far fa-hand-point-right arrow-icon'></i> Membership
+                    </a>               
                   </div>
                 </div>
               </div>
