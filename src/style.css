@@ -409,13 +409,11 @@ overflow: hidden;
 
 /* for main slider */
 @media (min-width: 300px) and (max-width: 499px) {
-  .main-slider-section{
-    /* margin-bottom: 1px !important; */
+  /* .main-slider-section{ 
   } 
-  .main-slider-button{
-    /* margin-bottom: 1px !important; */
-  } 
-  .carousel-indicators{
+  .main-slider-button{ 
+  }  */
+  .carousel-indicators .indicators-line{
     display: none !important;
   }
 } 

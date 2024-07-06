@@ -26,7 +26,7 @@ const HeroOne = () => {
                 <Link to="/about" className="secondary-common-button">
                   Learn More 
                 </Link>
-                <a to="https://sikandar735.github.io/comming-soon/" className="secondary-common-button">
+                <a to=" https://mra-dashboard-latest.vercel.app/auth/login" className="secondary-common-button">
                   Join Now
                 </a> 
 

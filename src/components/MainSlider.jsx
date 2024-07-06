@@ -9,7 +9,7 @@ export default class MainSlider extends Component {
                     className="carousel carousel-dark slide"
                     data-bs-ride="carousel"
                 >
-                    <div className="carousel-indicators">
+                    <div className="carousel-indicators indicators-line">
                         <button
                             type="button"
                             data-bs-target="#carouselExampleDark"
@@ -38,7 +38,7 @@ export default class MainSlider extends Component {
                             <div className="carousel-caption d-block mobile-screen main-slider-section" style={{ marginBottom: '10%', fontSize: '80%', textAlign: 'center' }}>
                                 <h3 className='text-white title-text'>Join the Milton Residents Association</h3>
                                 <p className='text-white' style={{ fontSize: '0.9rem' }}>Become a member and help shape our community.</p>
-                                <a href="https://sikandar735.github.io/comming-soon/" class="btn btn-outline-secondary button-secondary-slider main-slider-button">
+                                <a href=" https://mra-dashboard-latest.vercel.app/auth/login" class="btn btn-outline-secondary button-secondary-slider main-slider-button">
                                 <i  className='far fa-hand-point-right arrow-icon'></i> Membership
                                 </a>                            
                             </div>
@@ -48,7 +48,7 @@ export default class MainSlider extends Component {
                             <div className="carousel-caption d-block mobile-screen main-slider-section" style={{ marginBottom: '10%', fontSize: '80%', textAlign: 'center' }}>
                                 <h3 className='text-white title-text'>Welcome to Milton!</h3>
                                 <p className='text-white' style={{ fontSize: '0.9rem' }}>Discover resources and information for new residents.</p>
-                                <a href="https://sikandar735.github.io/comming-soon/" class="btn btn-outline-secondary button-secondary-slider main-slider-button">
+                                <a href=" https://mra-dashboard-latest.vercel.app/auth/login" class="btn btn-outline-secondary button-secondary-slider main-slider-button">
                                 <i  className='far fa-hand-point-right arrow-icon'></i> Membership
                                 </a>                            
                             </div>
@@ -58,7 +58,7 @@ export default class MainSlider extends Component {
                             <div className="carousel-caption d-block mobile-screen main-slider-section" style={{ marginBottom: '10%', fontSize: '80%', textAlign: 'center' }}>
                                 <h3 className='text-white title-text'>Voice Your Concerns</h3>
                                 <p className='text-white' style={{ fontSize: '0.9rem' }}>Share your issues and ideas to improve Milton.</p>
-                                <a href="https://sikandar735.github.io/comming-soon/" class="btn btn-outline-secondary button-secondary-slider main-slider-button">
+                                <a href=" https://mra-dashboard-latest.vercel.app/auth/login" class="btn btn-outline-secondary button-secondary-slider main-slider-button">
                                 <i  className='far fa-hand-point-right arrow-icon'></i> Membership
                                 </a>                            
                             </div>

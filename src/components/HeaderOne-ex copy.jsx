@@ -1,7 +1,5 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import HeaderLogo from "../assets/img/logo.png";
-import HeaderSvg from "../assets/img/icon/bars.svg"; 
 
 const HeaderOne = () => {
   const [active, setActive] = useState(false);
@@ -75,8 +73,7 @@ const HeaderOne = () => {
             <div className="th-widget-about">
               <div className="about-logo">
                 <Link to="/">
-                  {/* <img src="assets/img/logo.svg" alt="Laun" /> */}
-                  <img  className="header-logo" src={HeaderLogo} alt="Milton Residents Association-MRA" />
+                  <img src="assets/img/logo.svg" alt="Laun" />
                 </Link>
               </div>
               <p className="about-text">
@@ -84,44 +81,39 @@ const HeaderOne = () => {
                 pool during the off-season, and when spring arrives, we handle
                 the thorough opening process.
               </p>
-              <div  className="social-links">
+              <div className="social-links">
                 <Link to="#">
-                  <i  className="fa fa-facebook-f" />
+                  <i className="fab fa-facebook-f" />
                 </Link>
                 <Link to="#">
-                  <i  className="fa fa-twitter" />
+                  <i className="fab fa-twitter" />
                 </Link>
                 <Link to="#">
-                  <i  className="fa fa-linkedin" />
+                  <i className="fab fa-linkedin-in" />
                 </Link>
                 <Link to="#">
-                  <i  className="fa fa-whatsapp" />
+                  <i className="fab fa-whatsapp" />
                 </Link>
               </div>
             </div>
           </div>
-
-          <a href="https://mra-dashboard-latest.vercel.app/auth/login" class="btn btn-outline-secondary button-secondary">
-            <i  className='far fa-hand-point-right arrow-icon'></i> Membership
-          </a>
-
-          <div  className="side-info mb-30 mt-4">
-            <div  className="contact-list mb-20">
+          <div className="side-info mb-30">
+            <div className="contact-list mb-20">
               <h4>Office Address</h4>
-              <p>Milton, Ontario Canada</p>
+              <p>1212, Lav Vegas, The Veg Street, USA</p>
             </div>
-            <div  className="contact-list mb-20">
+            <div className="contact-list mb-20">
               <h4>Phone Number</h4>
-              <p  className="mb-0">+1 (647)-206-2227</p>
-              <p>+1 (647)-206-1356</p>
+              <p className="mb-0">+880 123 45 67 89</p>
+              <p>+880 765 86 43 85</p>
             </div>
-            <div  className="contact-list mb-20">
+            <div className="contact-list mb-20">
               <h4>Email Address</h4>
-              <p  className="mb-0">info@miltonresidentsassociation.ca</p>
-              <p>infomar@gmail.com</p>
+              <p className="mb-0">yourmail@gmail.com</p>
+              <p>example.mail@hum.com</p>
             </div>
           </div>
-          {/* <ul className="side-instagram list-wrap">
+          <ul className="side-instagram list-wrap">
             <li>
               <Link to="#">
                 <img src="assets/img/gallery/1.jpg" alt="Bizmaster" />
@@ -142,10 +134,10 @@ const HeaderOne = () => {
                 <img src="assets/img/gallery/4.jpg" alt="Bizmaster" />
               </Link>
             </li>
-          </ul> */}
+          </ul>
         </div>
       </div>
-      {/* <div className={`popup-search-box ${search === true ? "show" : ""} `}>
+      <div className={`popup-search-box ${search === true ? "show" : ""} `}>
         <button className="searchClose" onClick={() => searchControl(false)}>
           <i className="fas fa-times" />
         </button>
@@ -155,7 +147,7 @@ const HeaderOne = () => {
             <i className="fas fa-search" />
           </button>
         </form>
-      </div> */}
+      </div>
       {/*==============================
     Mobile Menu
     ============================== */}
@@ -163,8 +155,7 @@ const HeaderOne = () => {
         <div className="mobile-menu-area">
           <div className="mobile-logo">
             <Link to="/">
-              {/* <img src="assets/img/logo.svg" alt="Bizmaster" /> */}
-              <img  className="header-logo" src={HeaderLogo} alt="Milton Residents Association-MRA" />
+              <img src="assets/img/logo.svg" alt="Bizmaster" />
             </Link>
             <button className="menu-toggle" onClick={mobileMenu}>
               <i className="fa fa-times" />
@@ -174,7 +165,7 @@ const HeaderOne = () => {
             <ul id="offcanvas-navigation">
               <li className="menu-item-has-children submenu-item-has-children">
                 <Link to="#">Home</Link>
-                {/* <ul className="sub-menu submenu-class">
+                <ul className="sub-menu submenu-class">
                   <li>
                     <Link to="/">Home 01</Link>
                   </li>
@@ -190,13 +181,13 @@ const HeaderOne = () => {
                   <li>
                     <Link to="/home-5">Home 05</Link>
                   </li>
-                </ul> */}
+                </ul>
               </li>
 
               <li>
                 <Link to="/about">About</Link>
               </li>
-              {/* <li className="menu-item-has-children">
+              <li className="menu-item-has-children">
                 <Link to="#">Pages</Link>
                 <ul className="sub-menu">
                   <li>
@@ -209,8 +200,8 @@ const HeaderOne = () => {
                     <Link to="/team-details">Team Details</Link>
                   </li>
                 </ul>
-              </li> */}
-              {/* <li className="menu-item-has-children">
+              </li>
+              <li className="menu-item-has-children">
                 <Link to="#">Project</Link>
                 <ul className="sub-menu">
                   <li>
@@ -220,22 +211,19 @@ const HeaderOne = () => {
                     <Link to="/project-details">Project Details</Link>
                   </li>
                 </ul>
-              </li> */}
+              </li>
               <li className="menu-item-has-children">
                 <Link to="#">Service</Link>
                 <ul className="sub-menu">
-                    <li>
-                      <Link to="/news-updates">News & Updates</Link>
-                    </li>
-                    <li>
-                      <Link to="/opinion-polls">Opinion Polls</Link>
-                    </li>
-                    <li>
-                      <Link to="/advocacy">Advocacy</Link>
-                    </li>
+                  <li>
+                    <Link to="/service">Service</Link>
+                  </li>
+                  <li>
+                    <Link to="/service-details">Service Details</Link>
+                  </li>
                 </ul>
               </li>
-              {/* <li className="menu-item-has-children">
+              <li className="menu-item-has-children">
                 <Link to="#">Blog</Link>
                 <ul className="sub-menu">
                   <li>
@@ -245,13 +233,10 @@ const HeaderOne = () => {
                     <Link to="/blog-details">Blog Details</Link>
                   </li>
                 </ul>
-              </li> */}
+              </li>
               <li>
                 <Link to="/contact">Contact</Link>
               </li>
-              <a href="https://mra-dashboard-latest.vercel.app/auth/login" class="btn btn-outline-secondary button-secondary">
-                    <i  className='far fa-hand-point-right arrow-icon'></i> Membership
-              </a>
             </ul>
           </div>
         </div>
@@ -260,14 +245,14 @@ const HeaderOne = () => {
       {/* Header Area */}
 
       <header className="nav-header header-layout1">
-        <div className={`sticky-wrapper header-background-color ${scroll && "sticky"}`}>
+        <div className={`sticky-wrapper ${scroll && "sticky"}`}>
           {/* Main Menu Area */}
           <div className="container">
             <div className="row align-items-center justify-content-between">
               <div className="col-auto">
                 <div className="header-logo">
-                  <Link to="/"> 
-                    <img  className="header-logo" src={HeaderLogo} alt="Milton Residents Association-MRA" />
+                  <Link to="/">
+                    <img src="assets/img/logo.svg" alt="logo" />
                   </Link>
                 </div>
               </div>
@@ -276,7 +261,7 @@ const HeaderOne = () => {
                   <ul>
                     <li className="menu-item-has-children">
                       <Link to="#">Home</Link>
-                      {/* <ul className="sub-menu">
+                      <ul className="sub-menu">
                         <li>
                           <Link to="/">Home 01</Link>
                         </li>
@@ -292,7 +277,7 @@ const HeaderOne = () => {
                         <li>
                           <Link to="/home-5">Home 05</Link>
                         </li>
-                      </ul> */}
+                      </ul>
                     </li>
 
                     <li>
@@ -300,19 +285,16 @@ const HeaderOne = () => {
                     </li>
                     <li className="menu-item-has-children">
                       <Link to="#">Services</Link>
-                      <ul  className="sub-menu"> 
+                      <ul className="sub-menu">
                         <li>
-                          <Link to="/news-updates">News & Updates</Link>
+                          <Link to="/service">Service</Link>
                         </li>
                         <li>
-                          <Link to="/opinion-polls">Opinion Polls</Link>
-                        </li>
-                        <li>
-                          <Link to="/advocacy">Advocacy</Link>
+                          <Link to="/service-details">Service Details</Link>
                         </li>
                       </ul>
                     </li>
-                    {/* <li className="menu-item-has-children">
+                    <li className="menu-item-has-children">
                       <Link to="#">Projects</Link>
                       <ul className="sub-menu">
                         <li>
@@ -322,8 +304,8 @@ const HeaderOne = () => {
                           <Link to="/project-details">Projects Details</Link>
                         </li>
                       </ul>
-                    </li> */}
-                    {/* <li className="menu-item-has-children">
+                    </li>
+                    <li className="menu-item-has-children">
                       <Link to="#">Blog</Link>
                       <ul className="sub-menu">
                         <li>
@@ -333,8 +315,8 @@ const HeaderOne = () => {
                           <Link to="/blog-details">Blog Details</Link>
                         </li>
                       </ul>
-                    </li> */}
-                    {/* <li className="menu-item-has-children">
+                    </li>
+                    <li className="menu-item-has-children">
                       <Link to="#">Pages</Link>
                       <ul className="sub-menu">
                         <li>
@@ -350,7 +332,7 @@ const HeaderOne = () => {
                           <Link to="/contact">Contact Page</Link>
                         </li>
                       </ul>
-                    </li> */}
+                    </li>
                     <li>
                       <Link to="/contact">Contact</Link>
                     </li>
@@ -369,25 +351,34 @@ const HeaderOne = () => {
               <div className="col-auto ms-xxl-4 d-xl-block d-none">
                 <div className="header-wrapper">
                   <div className="header-button">
-                    {/* <button
+                    <button
                       type="button"
                       onClick={() => searchControl(true)}
                       className="simple-icon searchBoxToggler"
                     >
                       <i className="fas fa-search" />
-                    </button> */}
+                    </button>
                     <button
                       onClick={() => sidebarControl(true)}
 
                       className="simple-icon sideMenuToggler d-none d-lg-block"
                     >
-                      <img  className="header-logo" src={HeaderSvg} alt="Milton Residents Association-MRA" />
+                      <img src="assets/img/icon/bars.svg" alt="Bizmaster" />
                     </button>
                   </div>
                   <div className="social-links">
-                    <a href="https://mra-dashboard-latest.vercel.app/auth/login" class="btn btn-outline-secondary button-secondary">
-                      <i  className='far fa-hand-point-right arrow-icon'></i> Membership
-                    </a>   
+                    <Link to="#">
+                      <i className="fab fa-instagram" />
+                    </Link>
+                    <Link to="#">
+                      <i className="fab fa-linkedin" />
+                    </Link>
+                    <Link to="#">
+                      <i className="fab fa-twitter" />
+                    </Link>
+                    <Link to="#">
+                      <i className="fab fa-facebook-f" />
+                    </Link>
                   </div>
                 </div>
               </div>
